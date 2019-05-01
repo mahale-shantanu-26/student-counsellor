@@ -1,0 +1,43 @@
+body {
+    padding: 10px;
+}
+
+.leftcolumn {   
+    float: left;
+    width: 18%;
+    
+
+}
+
+.rightcolumn {
+    float: left;
+    width: 82%;
+    padding-left: 15px;
+}
+
+.card {
+     background-color: white;
+     padding: 30px;
+     margin-top: 15px;
+     
+}
+
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.footer {
+    padding: 20px;
+    text-align: center;
+    background: rgb(255, 255, 255);
+    margin-top: 20px;
+}
+@media screen and (max-width: 800px) {
+    .leftcolumn, .rightcolumn {   
+        width: 100%;
+        padding: 0;
+    }
+}
